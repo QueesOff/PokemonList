@@ -5,6 +5,8 @@ import SearchFilter from "@/components/SearchFilter";
 import PokemonDetails from "@/components/PokemonDetails";
 import PokemonList from "@/components/PokemonList";
 import { getAdjacent } from "@/services/pokemonService";
+import { AiFillGithub } from "react-icons/ai"
+import Link from "next/link";
 
 export default function Home() {
   const [sortBy, setSortBy] = useState("ID_ASC");
@@ -34,6 +36,9 @@ export default function Home() {
         >
           <img src="/pokemon.png" className="h-10 w-auto" />
           <p className="text-4xl font-bold">PokeAPI</p>
+          <Link href="https://github.com/QueesOff/TestWork">
+            <AiFillGithub className="text-5xl"/>
+          </Link>
         </div>
         <div className="flex flex-col sm:flex-row mb-4 gap-4">
           <SearchFilter onSubmit={setFilterBy} />
