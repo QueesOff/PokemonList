@@ -1,8 +1,3 @@
-# TestWork for job, stack project = NextJS+Tailwind
-
-### Author: Barsbek Sabyrzhanov
-
-### Tg: https://t.me/QueesOff
-
+# stack project = NextJS+Tailwind
 
 ![alt text](/public/screen.jpg) 
